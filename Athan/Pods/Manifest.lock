@@ -1,0 +1,45 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - BAPrayerTimes (1.4.1)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - Google-Mobile-Ads-SDK (7.6.0)
+  - mopub-ios-sdk (4.3.0):
+    - mopub-ios-sdk/MoPubSDK (= 4.3.0)
+  - mopub-ios-sdk/MoPubSDK (4.3.0)
+  - Reachability (3.2)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+
+DEPENDENCIES:
+  - ASIHTTPRequest
+  - BAPrayerTimes (~> 1.4)
+  - FMDB
+  - Google-Mobile-Ads-SDK (~> 7.0)
+  - mopub-ios-sdk
+  - SDWebImage (~> 3.7)
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  BAPrayerTimes: bfabaf098b78955849d5a43c04efe37b9429b4bf
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  Google-Mobile-Ads-SDK: 0290020329c61183c4685304264b73382bc49fb4
+  mopub-ios-sdk: ef4aa305367b11c3bb465e9771e6622175049b03
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+
+COCOAPODS: 0.38.2

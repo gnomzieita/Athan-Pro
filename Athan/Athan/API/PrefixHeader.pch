@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Athan
+//
+//  Created by Alex Agarkov on 14.01.16.
+//  Copyright © 2016 Alex Agarkov. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+    #define SERVER_URL @"http://quanticapps.com/Athan/"
+    #import "AP_API.h"
+
+    #define myAPI [AP_API sharedController]
+#define WEATHER_APP_ID @"9d2a116065ee9212390a56933154dd97"
+#endif
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
